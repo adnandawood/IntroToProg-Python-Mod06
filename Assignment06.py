@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------------------ #
+# Title: Assignment06
+# Desc: Collections of Data
+# Change Log: (Who, When, What)
+#   ADawood,05/22/2024,Created Script
+# ------------------------------------------------------------------------------------------ #
+
 import json  # Importing the JSON module for handling JSON data
 
 class FileProcessor:
@@ -126,8 +133,9 @@ MENU: str = '''
 # Defining data constants
 FILE_NAME: str = "Enrollments.json"
 
-# Defining data variables and constants
+# Defining data variables
 student_data: list = []
+menu_choice: str = ""
 
 # Reading data from file
 FileProcessor.read_data_from_file(FILE_NAME, student_data)  # Call read_data_from_file method to load data from file
